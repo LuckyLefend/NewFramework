@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{A8E9EAA8-2AC7-4E73-BE07-2A40EF41945F}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>MasterServer</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+    <DefineConstants>USE_UDP</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="3rd\Mono.Xml\MiniParser.cs" />
+    <Compile Include="3rd\Mono.Xml\SecurityParser.cs" />
+    <Compile Include="3rd\Mono.Xml\SmallXmlParser.cs" />
+    <Compile Include="Scripts\Common\AppExtend.cs" />
+    <Compile Include="Scripts\Define\AppConst.cs" />
+    <Compile Include="MasterServer.cs" />
+    <Compile Include="Scripts\BaseBehaviour.cs" />
+    <Compile Include="Scripts\Message\ReqHitTargetHandler.cs" />
+    <Compile Include="Scripts\Message\ReqOpenFireHandler.cs" />
+    <Compile Include="Scripts\View\IObjectView.cs" />
+    <Compile Include="Scripts\Common\Protocal.cs" />
+    <Compile Include="Scripts\Define\ManagerNames.cs" />
+    <Compile Include="Scripts\Manager\BulletManager.cs" />
+    <Compile Include="Scripts\Manager\ConfigManager.cs" />
+    <Compile Include="Scripts\Manager\EffectManager.cs" />
+    <Compile Include="Scripts\Manager\IManager.cs" />
+    <Compile Include="Scripts\Manager\NetworkManager.cs" />
+    <Compile Include="Scripts\Manager\NPCManager.cs" />
+    <Compile Include="Scripts\Manager\TimerManager.cs" />
+    <Compile Include="Scripts\Message\BaseMessageHandler.cs" />
+    <Compile Include="Scripts\Message\DefaultMessageHandler.cs" />
+    <Compile Include="Scripts\Message\IMessageHandler.cs" />
+    <Compile Include="Scripts\Message\DisconnectHandler.cs" />
+    <Compile Include="Scripts\Message\ReqNpcsHandler.cs" />
+    <Compile Include="Scripts\Message\ReqMapInfoHandler.cs" />
+    <Compile Include="Scripts\AppServer.cs" />
+    <Compile Include="Scripts\Message\ReqSerializeFieldHandler.cs" />
+    <Compile Include="Scripts\Message\ReqUserInfoHandler.cs" />
+    <Compile Include="Scripts\ServerListener.cs" />
+    <Compile Include="Scripts\Utility\AppUtil.cs" />
+    <Compile Include="Scripts\Utility\ArgumentParser.cs" />
+    <Compile Include="Scripts\Utility\Log.cs" />
+    <Compile Include="Scripts\Utility\XmlHelper.cs" />
+    <Compile Include="Scripts\View\BulletView.cs" />
+    <Compile Include="Scripts\View\EffectView.cs" />
+    <Compile Include="Scripts\View\NPCView.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="3rd\Mono.Xml\ChangeLog" />
+    <None Include="3rd\Mono.Xml\ChangeLog.meta" />
+    <None Include="3rd\Mono.Xml\MiniParser.cs.meta" />
+    <None Include="3rd\Mono.Xml\SecurityParser.cs.meta" />
+    <None Include="3rd\Mono.Xml\SmallXmlParser.cs.meta" />
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\Mapdata\Map001.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LiteNetLib\LiteNetLib.csproj">
+      <Project>{b0a014e4-0392-4e35-aa42-8fb5a40417e0}</Project>
+      <Name>LiteNetLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>rmdir /q /s $(TargetDir)Config
+md $(TargetDir)Config
+xcopy /e /q $(ProjectDir)Config  $(TargetDir)Config</PostBuildEvent>
+  </PropertyGroup>
+</Project>

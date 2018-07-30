@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<map name='Map001' event='Map001_event'>
+    <heroSpawnPos>
+        <item name='1' pos_x='-1.16' pos_y='3.94' pos_z='0' />
+        <item name='2' pos_x='7.03' pos_y='1.91' pos_z='0' />
+        <item name='3' pos_x='5.9' pos_y='-3.45' pos_z='0' />
+        <item name='4' pos_x='-7.06' pos_y='-3.07' pos_z='0' />
+    </heroSpawnPos>
+    <monsterSpawnPos>
+        <item name='1' pos_x='-0.54' pos_y='0.48' pos_z='0' />
+    </monsterSpawnPos>
+
+</map>

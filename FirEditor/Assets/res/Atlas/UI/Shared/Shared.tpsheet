@@ -1,0 +1,13 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:abfd5f17df0421d1697fb6ae481a3736:e676457410551097e305be2a449a4adb:695ac4395970710bb6c7e8cdb5322ed3$
+#
+:format=40000
+:texture=Shared.png
+:size=256x256
+
+btn_start;1;43;182;212;0.5;0.5

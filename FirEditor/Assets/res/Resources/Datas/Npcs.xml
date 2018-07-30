@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+  <tank>
+    <item name='tank1' atlas='Tanks' base='trackwheel1|trackwheel_1' base_pos='0_0_1' armor='armor15' armor_pos='0_0_0' canon='head2' canon_pos='0_0.1_-1' scale='1.5_1.5_1' />
+  </tank>
+  <animal>
+    <item name='animal1' atlas='Animals' frame='Frame' frame_pos='0_0_0' frame_size='0.65_0.65_0' body='bear' body_pos='0_-0.06_0' scale='1_1_1' />
+  </animal>
+</root>

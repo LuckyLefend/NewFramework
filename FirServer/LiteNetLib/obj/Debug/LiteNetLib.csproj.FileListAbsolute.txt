@@ -1,0 +1,5 @@
+E:\workspace\ProjectOne\FirServer\LiteNetLib\bin\Debug\LiteNetLib.dll
+E:\workspace\ProjectOne\FirServer\LiteNetLib\bin\Debug\LiteNetLib.pdb
+E:\workspace\ProjectOne\FirServer\LiteNetLib\obj\Debug\LiteNetLib.dll
+E:\workspace\ProjectOne\FirServer\LiteNetLib\obj\Debug\LiteNetLib.pdb
+E:\Workspace\ProjectOne\FirServer\LiteNetLib\obj\Debug\LiteNetLib.csprojResolveAssemblyReference.cache

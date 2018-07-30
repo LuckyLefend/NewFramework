@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+  <bullet>
+    <item name='bullet1' resource='Bullet386' animName='Move' scale='1_1_1' sound='sfx_fire3' />
+    <item name='bullet2' resource='Bullet581' animName='Move' scale='1_1_1' sound='sfx_openfire' />
+  </bullet>
+  <effect>
+    <item name='effect1' resource='Effect567' animName='Move' scale='2_2_2' sound='sfx_fire3' />
+  </effect>
+</root>

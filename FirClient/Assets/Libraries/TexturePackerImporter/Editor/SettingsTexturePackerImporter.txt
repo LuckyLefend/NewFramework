@@ -1,0 +1,29 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/Libraries/TexturePackerImporter/Example/SpriteSheet/sprites.tpsheet
+- Assets/res/Atlas/Maps/Map01/Map01.tpsheet
+- Assets/res/Atlas/UI/Battle/Battle.tpsheet
+- Assets/res/Atlas/UI/Login/Login.tpsheet
+- Assets/res/Atlas/UI/Main/Main.tpsheet
+- Assets/res/Atlas/UI/Shared/Shared.tpsheet
+- Assets/res/Resources/Atlas/Objects/Animals/Animals.tpsheet
+- Assets/res/Resources/Atlas/Objects/Tanks/Tanks.tpsheet
+textureFileNames:
+- Assets/Libraries/TexturePackerImporter/Example/SpriteSheet/sprites.png
+- Assets/res/Atlas/Maps/Map01/Map01.png
+- Assets/res/Atlas/UI/Battle/Battle.png
+- Assets/res/Atlas/UI/Login/Login.png
+- Assets/res/Atlas/UI/Main/Main.png
+- Assets/res/Atlas/UI/Shared/Shared.png
+- Assets/res/Resources/Atlas/Objects/Animals/Animals.png
+- Assets/res/Resources/Atlas/Objects/Tanks/Tanks.png
+normalmapFileNames:
+- Assets/Libraries/TexturePackerImporter/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+- 
+- 
+- 

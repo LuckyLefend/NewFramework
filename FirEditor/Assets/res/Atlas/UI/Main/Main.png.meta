@@ -1,0 +1,516 @@
+fileFormatVersion: 2
+guid: 5e3032201f6ace04198f66204c1a8e8a
+timeCreated: 1522506431
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bottom_btn_add_friend
+    21300002: btn_add
+    21300004: btn_sns_facebook
+    21300006: btn_sns_google
+    21300008: btn_sns_twitter
+    21300010: btn_start
+    21300012: menu_gift
+    21300014: menu_message
+    21300016: menu_mission
+    21300018: menu_ranking
+    21300020: menu_setting
+    21300022: menu_shop
+    21300024: notification_alert
+    21300026: notification_count
+    21300028: notification_new
+    21300030: status_bg_common
+    21300032: status_bg_common_time
+    21300034: status_icon_coin
+    21300036: status_icon_gem
+    21300038: status_icon_life
+    21300040: txt_title_sub_bg
+    21300042: user_info_gage_01_bar_blue
+    21300044: user_info_gage_01_bar_gray
+    21300046: user_info_gage_01_bar_white
+    21300048: user_info_gage_01_bg
+    21300050: user_info_gage_02_bar_gray
+    21300052: user_info_gage_02_bar_green
+    21300054: user_info_gage_02_bar_white
+    21300056: user_info_gage_02_bg
+    21300058: user_info_lv_bg
+    21300060: user_info_profile_bg
+    21300062: user_info_profile_sample
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 2
+    aniso: 4
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bottom_btn_add_friend
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 510
+        width: 126
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_add
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 641
+        width: 98
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_sns_facebook
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 357
+        width: 124
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_sns_google
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 413
+        width: 126
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_sns_twitter
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 486
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_start
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 730
+        width: 182
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: menu_gift
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 542
+        width: 132
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: menu_message
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 262
+        width: 113
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: menu_mission
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 405
+        width: 126
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: menu_ranking
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 616
+        width: 131
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: menu_setting
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 743
+        width: 100
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: menu_shop
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 295
+        width: 118
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: notification_alert
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 585
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: notification_count
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 524
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: notification_new
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 463
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: status_bg_common
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 793
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 33, z: 24, w: 27}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: status_bg_common_time
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 605
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: status_icon_coin
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 856
+        width: 78
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: status_icon_gem
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 383
+        width: 88
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: status_icon_life
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 947
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: txt_title_sub_bg
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 944
+        width: 421
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: user_info_gage_01_bar_blue
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 735
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 11, y: 16, z: 12, w: 15}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: user_info_gage_01_bar_gray
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 560
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 11, y: 13, z: 11, w: 15}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: user_info_gage_01_bar_white
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 522
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: user_info_gage_01_bg
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 726
+        width: 52
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 22, y: 33, z: 23, w: 23}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: user_info_gage_02_bar_gray
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 686
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: user_info_gage_02_bar_green
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 642
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 13, y: 18, z: 14, w: 19}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: user_info_gage_02_bar_white
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 598
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: user_info_gage_02_bg
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 868
+        width: 58
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 27, y: 36, z: 26, w: 29}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: user_info_lv_bg
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 646
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: user_info_profile_bg
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 773
+        width: 162
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: user_info_profile_sample
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 639
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

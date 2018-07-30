@@ -1,0 +1,13 @@
+E:\workspace\ProjectOne\DataTable\TableTool\TableTool\bin\Debug\TableTool.exe.config
+E:\workspace\ProjectOne\DataTable\TableTool\TableTool\bin\Debug\TableTool.exe
+E:\workspace\ProjectOne\DataTable\TableTool\TableTool\bin\Debug\TableTool.pdb
+E:\workspace\ProjectOne\DataTable\TableTool\TableTool\obj\Debug\TableTool.csprojResolveAssemblyReference.cache
+E:\workspace\ProjectOne\DataTable\TableTool\TableTool\obj\Debug\TableTool.exe
+E:\workspace\ProjectOne\DataTable\TableTool\TableTool\obj\Debug\TableTool.pdb
+E:\workspace\ProjectOne\Tools\TableTool\TableTool\bin\Debug\TableTool.exe.config
+E:\workspace\ProjectOne\Tools\TableTool\TableTool\obj\Debug\TableTool.exe
+E:\workspace\ProjectOne\Tools\TableTool\TableTool\obj\Debug\TableTool.pdb
+E:\workspace\ProjectOne\Tools\Bin\TableTool.exe.config
+E:\workspace\ProjectOne\Tools\Bin\TableTool.exe
+E:\workspace\ProjectOne\Tools\Bin\TableTool.pdb
+E:\workspace\ProjectOne\Tools\TableTool\TableTool\obj\Debug\TableTool.csprojResolveAssemblyReference.cache

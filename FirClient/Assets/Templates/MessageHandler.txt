@@ -1,0 +1,15 @@
+﻿//File creation in [TIME]
+using System.Collections;
+using System.Collections.Generic;
+using LiteNetLib;
+using LiteNetLib.Utils;
+
+namespace FirClient.Message
+{
+    public class [NAME] : BaseMessageHandler
+    {
+        public override void OnMessage(NetPeer peer, NetDataReader reader)
+        {
+        }
+    }
+}

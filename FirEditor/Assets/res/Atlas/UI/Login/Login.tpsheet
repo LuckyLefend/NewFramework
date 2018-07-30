@@ -1,0 +1,14 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:6d1140f281e2b3349c8ec3f617387e5b:ad7a6129241d9d9367a7712e04ba3314:648569642f8de0dbb7d175d5a02064d4$
+#
+:format=40000
+:texture=Login.png
+:size=512x256
+
+logo;1;87;344;168;0.5;0.5
+settings;1;55;30;30;0.5;0.5

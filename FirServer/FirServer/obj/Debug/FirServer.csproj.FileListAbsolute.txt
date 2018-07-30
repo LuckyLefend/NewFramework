@@ -1,0 +1,8 @@
+E:\Workspace\ProjectOne\FirServer\FirServer\bin\Debug\MasterServer.exe.config
+E:\Workspace\ProjectOne\FirServer\FirServer\bin\Debug\MasterServer.exe
+E:\Workspace\ProjectOne\FirServer\FirServer\bin\Debug\MasterServer.pdb
+E:\Workspace\ProjectOne\FirServer\FirServer\bin\Debug\LiteNetLib.dll
+E:\Workspace\ProjectOne\FirServer\FirServer\bin\Debug\LiteNetLib.pdb
+E:\Workspace\ProjectOne\FirServer\FirServer\obj\Debug\FirServer.csprojResolveAssemblyReference.cache
+E:\Workspace\ProjectOne\FirServer\FirServer\obj\Debug\MasterServer.exe
+E:\Workspace\ProjectOne\FirServer\FirServer\obj\Debug\MasterServer.pdb

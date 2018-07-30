@@ -1,0 +1,44 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:b0810467121c9751ca338637245afd2f:f54141915e76e317b6ead7c5f02c0602:a51e1c733bd95c2344351166cb293d60$
+#
+:format=40000
+:texture=Main.png
+:size=512x1024
+
+bottom_btn_add_friend;168;510;126;127;0.5;0.5
+btn_add;403;641;98;100;0.5;0.5
+btn_sns_facebook;1;357;124;127;0.5;0.5
+btn_sns_google;350;413;126;127;0.5;0.5
+btn_sns_twitter;1;486;128;128;0.5;0.5
+btn_start;1;730;182;212;0.5;0.5
+menu_gift;373;542;132;97;0.5;0.5
+menu_message;1;262;113;93;0.5;0.5
+menu_mission;131;405;126;103;0.5;0.5
+menu_ranking;1;616;131;112;0.5;0.5
+menu_setting;405;743;100;111;0.5;0.5
+menu_shop;127;295;118;108;0.5;0.5
+notification_alert;319;585;52;59;0.5;0.5
+notification_count;296;524;52;59;0.5;0.5
+notification_new;296;463;52;59;0.5;0.5
+status_bg_common;349;793;54;73;0.5;0.5
+status_bg_common_time;296;605;18;32;0.5;0.5
+status_icon_coin;424;856;78;89;0.5;0.5
+status_icon_gem;259;383;88;78;0.5;0.5
+status_icon_life;424;947;79;76;0.5;0.5
+txt_title_sub_bg;1;944;421;79;0.5;0.5
+user_info_gage_01_bar_blue;319;735;28;36;0.5;0.5
+user_info_gage_01_bar_gray;131;560;29;36;0.5;0.5
+user_info_gage_01_bar_white;131;522;29;36;0.5;0.5
+user_info_gage_01_bg;349;726;52;65;0.5;0.5
+user_info_gage_02_bar_gray;134;686;32;42;0.5;0.5
+user_info_gage_02_bar_green;134;642;32;42;0.5;0.5
+user_info_gage_02_bar_white;134;598;32;42;0.5;0.5
+user_info_gage_02_bg;349;868;58;74;0.5;0.5
+user_info_lv_bg;319;646;76;78;0.5;0.5
+user_info_profile_bg;185;773;162;169;0.5;0.5
+user_info_profile_sample;185;639;132;132;0.5;0.5
